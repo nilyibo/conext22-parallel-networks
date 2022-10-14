@@ -32,7 +32,7 @@ Copyright (c) 2020, Gurobi Optimization, LLC
 ### Plotting script / Jupyter notebook
 
 Plotting script can be found in [plots](./plots) directory, organized by evaluation subsections.
-It runs on standard Jupyter notebook + numpy + matplotlib, so please install that with your package manager (pip/conda/...).
+It runs on standard [Jupyter `notebook`](https://jupyter.org/install) + `numpy` + `matplotlib`, so please install that with your package manager (`pip`/`conda`/...).
 
 ## How to run the simulator?
 
