@@ -63,8 +63,6 @@ if [ $FORCE ]; then
 fi
 
 if [ $FORCE ] || [ $CLEAN ]; then
-    cd $ROOT_DIR/../.. && make clean
-    cd $ROOT_DIR/.. && make clean
     cd $BUILD_DIR && [ -f Makefile ] && make clean
 fi
 
@@ -72,8 +70,6 @@ MAKE_FLAGS=" -j $BUILD_CORES"
 [ $DEBUG ] && MAKE_FLAGS+=" DEBUG=1" || MAKE_FLAGS+=" DEBUG=0"
 [ $VERBOSE ] && MAKE_FLAGS+=" VERBOSE=1"
 
-cd $ROOT_DIR/../.. && make $MAKE_FLAGS
-cd $ROOT_DIR/.. && make $MAKE_FLAGS
 cd $BUILD_DIR && cmake . && make $MAKE_FLAGS
 
 )
