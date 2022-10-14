@@ -1,0 +1,6 @@
+/htsim/**/*.o
+/htsim/datacenter/**/htsim_*
+/htsim/datacenter/**/logout.dat
+/build/
+/result/
+
