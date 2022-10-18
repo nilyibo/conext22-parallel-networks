@@ -227,7 +227,7 @@ run_networks()
         local retval=1
         local run_num=1
         set +e  # gurobi might fail, we will re-generate LP and re-try
-        set -x
+        # set -x
         while [[ $retval -ne 0 ]]; do
             echo "$runid: try #$run_num ..."
             /bin/rm -rf gurobi.log gurobi.sol

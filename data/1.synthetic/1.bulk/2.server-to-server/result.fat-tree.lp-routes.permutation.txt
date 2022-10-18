@@ -1,0 +1,14 @@
+lp-routes.k=8.exp1.permutation.ecmp.tcp.any-plane.K=1.1net/run1.single/gurobi.log:Optimal objective 2.50000000e+00
+lp-routes.k=8.exp1.permutation.ecmp.tcp.any-plane.K=1.2net/run1.parallel/gurobi.log:Optimal objective 3.33333333e+00
+lp-routes.k=8.exp1.permutation.ecmp.tcp.any-plane.K=1.2net/run1.single/gurobi.log:Optimal objective 5.00000000e+00
+lp-routes.k=8.exp1.permutation.ecmp.tcp.any-plane.K=1.4net/run1.parallel/gurobi.log:Optimal objective 3.33333333e+00
+lp-routes.k=8.exp1.permutation.ecmp.tcp.any-plane.K=1.4net/run1.single/gurobi.log:Optimal objective 1.00000000e+01
+lp-routes.k=8.exp1.permutation.ecmp.tcp.any-plane.K=1.8net/run1.parallel/gurobi.log:Optimal objective 3.33333333e+00
+lp-routes.k=8.exp1.permutation.ecmp.tcp.any-plane.K=1.8net/run1.single/gurobi.log:Optimal objective 1.60000000e+01
+lp-routes.k=8.exp2.permutation.ecmp.tcp.any-plane.K=1.1net/run1.single/gurobi.log:Optimal objective 3.33333333e+00
+lp-routes.k=8.exp2.permutation.ecmp.tcp.any-plane.K=1.2net/run1.parallel/gurobi.log:Optimal objective 2.50000000e+00
+lp-routes.k=8.exp2.permutation.ecmp.tcp.any-plane.K=1.2net/run1.single/gurobi.log:Optimal objective 4.00000000e+00
+lp-routes.k=8.exp2.permutation.ecmp.tcp.any-plane.K=1.4net/run1.parallel/gurobi.log:Optimal objective 3.33333333e+00
+lp-routes.k=8.exp2.permutation.ecmp.tcp.any-plane.K=1.4net/run1.single/gurobi.log:Optimal objective 8.00000000e+00
+lp-routes.k=8.exp2.permutation.ecmp.tcp.any-plane.K=1.8net/run1.parallel/gurobi.log:Optimal objective 3.33333333e+00
+lp-routes.k=8.exp2.permutation.ecmp.tcp.any-plane.K=1.8net/run1.single/gurobi.log:Optimal objective 2.00000000e+01

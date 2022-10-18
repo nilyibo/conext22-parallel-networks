@@ -1,0 +1,14 @@
+lp-routes.k=8.exp1.all-to-all.ecmp.tcp.any-plane.K=1.1net/run1.single/gurobi.log:Optimal objective 6.84931507e-02
+lp-routes.k=8.exp1.all-to-all.ecmp.tcp.any-plane.K=1.2net/run1.parallel/gurobi.log:Optimal objective 1.16279070e-01
+lp-routes.k=8.exp1.all-to-all.ecmp.tcp.any-plane.K=1.2net/run1.single/gurobi.log:Optimal objective 1.31578947e-01
+lp-routes.k=8.exp1.all-to-all.ecmp.tcp.any-plane.K=1.4net/run1.parallel/gurobi.log:Optimal objective 2.04081633e-01
+lp-routes.k=8.exp1.all-to-all.ecmp.tcp.any-plane.K=1.4net/run1.single/gurobi.log:Optimal objective 2.66666666e-01
+lp-routes.k=8.exp1.all-to-all.ecmp.tcp.any-plane.K=1.8net/run1.parallel/gurobi.log:Optimal objective 3.12500000e-01
+lp-routes.k=8.exp1.all-to-all.ecmp.tcp.any-plane.K=1.8net/run1.single/gurobi.log:Optimal objective 5.12820513e-01
+lp-routes.k=8.exp2.all-to-all.ecmp.tcp.any-plane.K=1.1net/run1.single/gurobi.log:Optimal objective 6.62251656e-02
+lp-routes.k=8.exp2.all-to-all.ecmp.tcp.any-plane.K=1.2net/run1.parallel/gurobi.log:Optimal objective 1.25000000e-01
+lp-routes.k=8.exp2.all-to-all.ecmp.tcp.any-plane.K=1.2net/run1.single/gurobi.log:Optimal objective 1.31578947e-01
+lp-routes.k=8.exp2.all-to-all.ecmp.tcp.any-plane.K=1.4net/run1.parallel/gurobi.log:Optimal objective 2.04081633e-01
+lp-routes.k=8.exp2.all-to-all.ecmp.tcp.any-plane.K=1.4net/run1.single/gurobi.log:Optimal objective 2.63157895e-01
+lp-routes.k=8.exp2.all-to-all.ecmp.tcp.any-plane.K=1.8net/run1.parallel/gurobi.log:Optimal objective 3.22580645e-01
+lp-routes.k=8.exp2.all-to-all.ecmp.tcp.any-plane.K=1.8net/run1.single/gurobi.log:Optimal objective 5.03144649e-01
