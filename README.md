@@ -37,10 +37,10 @@ It runs on standard [Jupyter `notebook`](https://jupyter.org/install) + `numpy` 
 ## How to run the simulator?
 
 The simulator should be built as a binary located at [sim/build/release/pnet/pnet_sim](./sim/build/release/pnet/pnet_sim).
-For each experiment, we include the scripts to run the simulator with appropriate arguments, e.g. mode (latency vs throughput vs LP solver input vs generate traffic matrix), network topology, traffic matrix, ... You can find them [here](./sim/script/conext).
+For each experiment, we include the scripts to run the simulator with appropriate arguments, e.g. mode (latency vs throughput vs LP solver input vs generate traffic matrix), network topology, traffic matrix, ... You can find them [here](./reproduce).
 
-Details to be added.
+The scripts will also perform necessary pre-processing and put the result under `data` directory in the repo root. They will also delete any temporary data to avoid too much disk usage.
 
 ## How to interpret simulator output and/or reproduce the plots?
 
-To be added.
+Simulator output will be parsed by the included script and simpler text/CSV format results (e.g. flow completion times, throughput, ...) will be saved in the `data` directory, which are then processed by the Jupyter notebooks in [plots](./plots) for plotting.
