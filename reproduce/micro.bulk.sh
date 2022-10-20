@@ -64,7 +64,7 @@ function run_experiment() {
         fi
     fi
     for topology_index in $(echo $topology_indices); do
-        for exp_num in {1..NUM_EXPERIMENTS}; do
+        for exp_num in $(seq 1 $NUM_EXPERIMENTS); do
             cmd="./run-topology.sh $mode $topology $radix $traffic_type exp$exp_num $num_networks $(echo $routing) any $topology_index $single_or_parallel"
             echo "+$cmd"
             isem $(echo $cmd)
