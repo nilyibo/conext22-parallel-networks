@@ -14,15 +14,17 @@ echo "Done"
 echo
 
 
-echo "Pulling abseil-cpp submodule ..."
+if [[ ! -f ../abseil-cpp/CMakeLists.txt ]]; then
+    echo "Pulling abseil-cpp submodule ..."
 
-pushd ../abseil-cpp
-git submodule init
-git submodule update
-popd
+    pushd ../abseil-cpp
+    git submodule init
+    git submodule update
+    popd
 
-echo "Done"
-echo
+    echo "Done"
+    echo
+fi
 
 
 echo "Building simulator ..."
